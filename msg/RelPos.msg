@@ -8,7 +8,7 @@ float64[3] relPosHPNED 	# High precision NED, the measurment portion less than a
 float64 relPosHPLength 	# High precision Length, the measurment portion less than a mm. (m)
 float64[3] accNED 		# Accuracy of relative position North component (m)
 float64 accLength 		# Accuracy of Length of the relative position vector (m)
-uint32 accHeading 		# Accuracy of heading of the relative position vector (rad)
+float64 accHeading 		# Accuracy of heading of the relative position vector (rad)
 uint32 flags 			# See enums below
 float64[3] arrowNED  # Difference vector from one rover to the other. (m)
 float64 arrowLength #Length of difference vector. (m)
