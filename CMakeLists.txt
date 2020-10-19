@@ -87,7 +87,7 @@ if (${BUILD_EXAMPLES})
 	target_link_libraries(read UBLOX)
 endif()
 
-option(BUILD_ROS "Build ROS Node" OFF)
+option(BUILD_ROS "Build ROS Node" ON)
 if (${BUILD_ROS})
     message(STATUS "BUILDING UBLOX ROS PACKAGE")
 	find_package(catkin REQUIRED COMPONENTS
